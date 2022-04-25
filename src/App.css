@@ -1,0 +1,88 @@
+.App {
+    text-align: center;
+    color: #0c466d;
+    font-family: Raleway, sans-serif;
+
+}
+
+body {
+}
+
+.homePage {
+    background-size: cover;
+}
+
+.quizesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quizContainer {
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #193e61;
+    color: #f6e4ae;
+}
+
+.quizName {
+    font-size: 1rem;
+}
+
+.quizContainer:hover {
+    background-color: #f1e3bb;
+    cursor: pointer;
+}
+
+.Quiz, .Form {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.Quiz .card {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.Form .card {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+label.radio {
+    display: block;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+label.radio + .radion {
+    margin-left: 0;
+}
+
+label.radio input {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+label:hover {
+    background-color: #bbc1c6;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+    background: #9ca8b3;
+}
